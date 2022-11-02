@@ -6,7 +6,7 @@ description: 欢迎来到我的个人站~
 avatarTitle: leopardpan
 # 头像里面的描述
 avatarDesc: iOS / 机器学习
-url: "http://leopardpan.cn"
+url: "http://www.hengda.one"
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
@@ -20,12 +20,12 @@ comment:
 # Social
 social:
     weibo: 5366874726 
-    github: leopardpan
-    # zhihu: panpanleopard
-    # juejin: xxx
+    github: hengdactn
+    # zhihu: 
+    # juejin: 
     jianshu: 2ada30d8d0f7
     # twitter: 
-    mail: leopardpan@icloud.com
+    mail: hengdactn@gmail.com
 
 
 # 百度统计 
@@ -44,7 +44,7 @@ ga:
 #
 #
 #  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#  帮忙star一下，感谢~😆 地址： https://github.com/hengdactn/ctnhb.github.io
 #
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
