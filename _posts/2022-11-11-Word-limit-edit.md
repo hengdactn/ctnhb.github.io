@@ -20,7 +20,7 @@ tag: Word Tips
 ![审阅](https://user-images.githubusercontent.com/70909689/201368043-77a5e6f7-edd3-41a9-a5a6-5938d8671ebe.jpg)
 选择`保护`子菜单下的`限制编辑`选项
 ![limitedit](https://user-images.githubusercontent.com/70909689/201368363-68f2f677-19f6-4eb5-9617-cc038d3aef58.png)
-勾选2.编辑限制
+勾选2.`编辑限制`
 ![select1](https://user-images.githubusercontent.com/70909689/201369000-db49f3ce-0403-4d8b-9a23-7fe9ccf51a52.png)
 
 ### 三.选择允许编辑的区域
@@ -32,6 +32,7 @@ tag: Word Tips
 ![select3](https://user-images.githubusercontent.com/70909689/201370729-0097e8d4-6fb3-4b3a-8cbd-a752d76d8f54.png)
 
 ### 五.开启保护并输入密码
+点击`开启保护`
 ![select4](https://user-images.githubusercontent.com/70909689/201371226-a94c61a4-0fe9-4634-ac89-72769044a6e5.png)
 然后输入密码
 ![select5](https://user-images.githubusercontent.com/70909689/201371468-243a1383-02cb-4e34-a8f1-bef917f14b5c.png)
