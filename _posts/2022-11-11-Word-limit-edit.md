@@ -11,21 +11,21 @@ tag: Word Tips
 
 ### 一.首先打开我们要处理的文档
 
-    打开我们要进行处理的文件。
+        打开我们要进行处理的文件。
     
-    ![open file](https://user-images.githubusercontent.com/70909689/201363698-296379f8-8e2b-40b7-8504-4112aab325a0.png) 
+        ![open file](https://user-images.githubusercontent.com/70909689/201363698-296379f8-8e2b-40b7-8504-4112aab325a0.png) 
 
 ### 二.设定限制编辑区域
 
-    打开word的'“审阅”'菜单。
+        打开word的'“审阅”'菜单。
     
-    ![审阅](https://user-images.githubusercontent.com/70909689/201363285-8d2c925c-8312-4c85-ab88-8f2ed71170f5.jpg)
+        ![审阅](https://user-images.githubusercontent.com/70909689/201363285-8d2c925c-8312-4c85-ab88-8f2ed71170f5.jpg)
     
-    选择'保护'子菜单下的“限制编辑”选项
+        选择'保护'子菜单下的“限制编辑”选项
     
 ### 三.选择允许编辑的区域
 
-    选择允许边界的区域，如果是多出区域需要选择可在选择时按住'Ctrl'键。
+        选择允许边界的区域，如果是多出区域需要选择可在选择时按住'Ctrl'键。
     
 
 ### 四.确认区域并输入密码
