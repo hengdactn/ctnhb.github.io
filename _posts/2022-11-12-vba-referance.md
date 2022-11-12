@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VBA代码添加引用"
+title: "使用VBA代码加载“引用"”
 date: 2022-11-12
 description: "VBA referance"
 tag: VBA
@@ -22,7 +22,9 @@ tag: VBA
 我们发现有四个引用项。
 
 ## 用代码查看我们的引用项
+
 运行下面代码
+
 Private Sub Vba_referance()
   '遍历所有已使用的引用
   Dim i As Integer                
@@ -37,6 +39,7 @@ Private Sub Vba_referance()
       Next
    End With
 End Sub
+
 会在sheet1页面上列出我们的引用项
 
 ![referance5](https://user-images.githubusercontent.com/70909689/201477443-bd012dfb-616c-440b-90b4-de7d2b773118.jpg)
