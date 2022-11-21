@@ -1,9 +1,9 @@
 ---
-layout:  post
-title:  Excel VBA实现对文件的选择
-date:  2022-11-21
-description:  excel select files
-tag: VBA
+layout:post
+title:Excel VBA实现对文件的选择
+date:2022-11-21
+description:excel select files
+tag:VBA
 ---
 
  在exce VBA编程的过程中偶尔会用到外部文件，下面我们通过excel VBA编程来实现对文件的选择。我们以在excel工作表中插入图片为例来说明如何操作。
