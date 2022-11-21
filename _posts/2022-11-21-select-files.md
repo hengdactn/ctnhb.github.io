@@ -11,10 +11,12 @@ tag: VBA
 ### 格式化待出入图片的单元格
 
 假设我们要在某工作表的“A21”和“B21”单元格插入图片，我们把列宽设置为40，行高设置为145。
+
     Columns("A:A").ColumnWidth = 40
     Columns("B:B").ColumnWidth = 40
     Rows("21:21").Select
     Selection.RowHeight = 145
+    
 调整完毕后如下图
 ![2022 11 21_19h55m05s_001](https://user-images.githubusercontent.com/70909689/203059125-45a9bc36-5ce1-41d0-bd47-2659767bc2b4.jpg)
 
