@@ -17,7 +17,7 @@ Selection.RowHeight = 145
 调整完毕后如下图
 
 
-### 使用Application.FileDialog（）语句插入图片
+### 使用Application.FileDialog（）语句选择插入图片
 Dim path As String
     Dim Fobj As FileDialog
     Set Fobj = Application.FileDialog(msoFileDialogFilePicker)
@@ -46,8 +46,7 @@ Dim path As String
     ActiveSheet.Pictures.Insert(path).Select
     Selection.ShapeRange.LockAspectRatio = msoFalse
     Selection.ShapeRange.Height = 140
-    Selection.ShapeRange.Width = 219
-    
+    Selection.ShapeRange.Width = 219    
     运行结果如下图
     
 ### 小结
