@@ -66,7 +66,8 @@ InitialFileName是默认打开的路径
 Show是显示选择对话框
 
 SelectedItems(1) 获取选择到的项，为数组，起始为1
- ![2022 11 21_20h22m18s_003](https://user-images.githubusercontent.com/70909689/203059332-4bc9d9e9-d4bc-4e6a-92a4-fe85e833e736.jpg)
+![2022 11 21_20h22m18s_003](https://user-images.githubusercontent.com/70909689/203061147-766e8225-e7c8-4a82-af97-0ca8dc3b975a.jpg)
+
    
     
     
