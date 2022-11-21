@@ -22,7 +22,8 @@ tag: VBA
 
 
 ### 使用Application.FileDialog（）语句选择插入图片
- Dim path As String
+
+    Dim path As String
     Dim Fobj As FileDialog
     Set Fobj = Application.FileDialog(msoFileDialogFilePicker)
     With Fobj
@@ -50,7 +51,8 @@ tag: VBA
     ActiveSheet.Pictures.Insert(path).Select
     Selection.ShapeRange.LockAspectRatio = msoFalse
     Selection.ShapeRange.Height = 140
-    Selection.ShapeRange.Width = 219    
+    Selection.ShapeRange.Width = 219   
+    
 运行结果如下图
 ![2022 11 21_20h26m51s_004](https://user-images.githubusercontent.com/70909689/203059257-5bd9c0da-e0b8-4d81-9fac-9a70f766cf69.jpg)
 
