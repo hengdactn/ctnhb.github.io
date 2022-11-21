@@ -50,7 +50,7 @@ Dim path As String
     Selection.ShapeRange.Height = 140
     Selection.ShapeRange.Width = 219    
     运行结果如下图
-    ![2022 11 21_20h26m51s_004](https://user-images.githubusercontent.com/70909689/203059257-5bd9c0da-e0b8-4d81-9fac-9a70f766cf69.jpg)
+![2022 11 21_20h26m51s_004](https://user-images.githubusercontent.com/70909689/203059257-5bd9c0da-e0b8-4d81-9fac-9a70f766cf69.jpg)
 
 ### 小结
 选择文件我们使用msoFileDialogFilePicker这个参数，即Application.FileDialog(msoFileDialogFilePicker)。
