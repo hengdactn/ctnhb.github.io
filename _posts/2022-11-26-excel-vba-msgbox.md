@@ -48,4 +48,24 @@ helpfile和context不常用不做介绍。
 
 ![image](https://user-images.githubusercontent.com/70909689/204092384-7ebd33f0-e6bd-490c-a360-c74a4b2e1206.png)
 
+### 4.设置显示“确认”和“取消”两个按钮
 
+    Sub msgbox_test4()
+        mychoice = MsgBox("程序继续运行请安确定键，否则按取消键!", vbInformation + vbOKCancel, "我的程序")
+        MsgBox "你按下了 " & mychoice & " 按钮"
+    End Sub
+    
+运行结果如下下：
+
+![image](https://user-images.githubusercontent.com/70909689/204093472-cea9e7d5-4139-4abe-a48e-ef8642a7ef8c.png)
+
+当我们按下“确认”按钮的时
+
+![image](https://user-images.githubusercontent.com/70909689/204093518-6acf23d5-9caf-468c-9262-c72bb19234ec.png)
+
+当我们按下“取消”按钮时
+
+![image](https://user-images.githubusercontent.com/70909689/204093580-09777caa-e3a6-4c43-9d12-9fdba57a70f0.png)
+
+
+    
