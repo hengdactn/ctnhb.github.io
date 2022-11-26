@@ -69,31 +69,13 @@ helpfile和context不常用不做介绍。
 
 ### 5.返回值
 
+![image](https://user-images.githubusercontent.com/70909689/204094840-3ac585f6-7979-4e7e-a420-78550a6cede5.png)
 
 
 ### 常用的buttons的值
 
-Constant	           Value 	Description
+![image](https://user-images.githubusercontent.com/70909689/204094858-10542915-2491-4115-81b4-b24e6a6521b2.png)
 
-vbOKOnly	            0	    Display OK button only.
-
-vbOKCancel	            1	    Display OK and Cancel buttons.
-
-vbAbortRetryIgnore	    2	    Display Abort, Retry, and Ignore buttons.
-
-vbYesNoCancel	        3	    Display Yes, No, and Cancel buttons.
-
-vbYesNo	                4	    Display Yes and No buttons.
-
-vbRetryCancel	        5	    Display Retry and Cancel buttons.
-
-vbCritical	            16  	Display Critical Message icon.
-
-vbQuestion	            32	    Display Warning Query icon.
-
-vbExclamation	        48	    Display Warning Message icon.
-
-vbInformation	        64	    Display Information Message icon.
 
 ## 以上就是Msgbox的基本用法，欢迎联系[ctnhb@126.com](mailto:ctnhb@126.com)
 
