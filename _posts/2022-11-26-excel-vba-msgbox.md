@@ -61,11 +61,11 @@ helpfile和context不常用不做介绍。
 
 当我们按下“确认”按钮的时
 
-![image](https://user-images.githubusercontent.com/70909689/204093518-6acf23d5-9caf-468c-9262-c72bb19234ec.png)
+![image](https://user-images.githubusercontent.com/70909689/204093706-57d2d4ea-fe14-41a4-b762-4dc7f4a2b104.png)
 
 当我们按下“取消”按钮时
 
-![image](https://user-images.githubusercontent.com/70909689/204093580-09777caa-e3a6-4c43-9d12-9fdba57a70f0.png)
+![image](https://user-images.githubusercontent.com/70909689/204093734-73ce256e-1580-45bc-990e-c563e9252c0d.png)
 
 
     
