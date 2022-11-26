@@ -52,7 +52,7 @@ helpfile和context不常用不做介绍。
 
     Sub msgbox_test4()
         mychoice = MsgBox("程序继续运行请安确定键，否则按取消键!", vbInformation + vbOKCancel, "我的程序")
-        MsgBox "你按下了 " & mychoice & " 按钮"
+        MsgBox "你按下了 " & mychoice & " 按钮", vbInformation, "按键检测"
     End Sub
     
 运行结果如下下：
@@ -66,6 +66,22 @@ helpfile和context不常用不做介绍。
 当我们按下“取消”按钮时
 
 ![image](https://user-images.githubusercontent.com/70909689/204093734-73ce256e-1580-45bc-990e-c563e9252c0d.png)
+
+### 常用的buttons的值
+
+Constant	      Value	Description
+vbOKOnly	        0	Display OK button only.
+vbOKCancel	        1	Display OK and Cancel buttons.
+vbAbortRetryIgnore	2	Display Abort, Retry, and Ignore buttons.
+vbYesNoCancel	    3	Display Yes, No, and Cancel buttons.
+vbYesNo	            4	Display Yes and No buttons.
+vbRetryCancel	    5	Display Retry and Cancel buttons.
+vbCritical	        16	Display Critical Message icon.
+vbQuestion	        32	Display Warning Query icon.
+vbExclamation	    48	Display Warning Message icon.
+vbInformation	    64	Display Information Message icon.
+
+## 以上就是Msgbox的基本用法，欢迎联系[ctnhb@126.com](mailto:ctnhb@126.com)
 
 
     
