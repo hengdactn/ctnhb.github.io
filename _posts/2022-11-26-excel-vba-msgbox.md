@@ -41,5 +41,11 @@ helpfile和context不常用不做介绍。
 
 ![image](https://user-images.githubusercontent.com/70909689/204091992-7dbd8bf1-1c47-4d11-9f56-32142b278ed7.png)
 
-### 3.
+### 3.设置“buttons”
+    Sub msgbox_test3()
+         MsgBox "Hello world!", vbInformation, "My Title"
+    End Sub
+
+![image](https://user-images.githubusercontent.com/70909689/204092384-7ebd33f0-e6bd-490c-a360-c74a4b2e1206.png)
+
 
