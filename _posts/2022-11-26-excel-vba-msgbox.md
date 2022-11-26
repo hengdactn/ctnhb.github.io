@@ -31,3 +31,15 @@ helpfile和context不常用不做介绍。
 图片中的“确定”按钮为命中中省略的buttons
 
 ![image](https://user-images.githubusercontent.com/70909689/204091558-7f612bb3-7806-46f2-a7aa-c4b6c9933474.png)
+
+### 2.设置msgbox的title
+
+    Sub msgbox_test2()
+        MsgBox "Hello world!", , "My Title"
+    End Sub
+显示结果如下：
+
+![image](https://user-images.githubusercontent.com/70909689/204091992-7dbd8bf1-1c47-4d11-9f56-32142b278ed7.png)
+
+### 3.
+
