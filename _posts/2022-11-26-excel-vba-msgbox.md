@@ -70,11 +70,13 @@ helpfile和context不常用不做介绍。
 ### 5.Msgbox的返回值
 
 Msgbox函数的返回值：
+
 ![image](https://user-images.githubusercontent.com/70909689/204094942-8e3b4be8-c4ed-47e9-82ae-ded615c92bde.png)
 
 
 ### 6.常用的buttons的值
 buttons的取值表
+
 ![image](https://user-images.githubusercontent.com/70909689/204095171-07786b87-1a04-4fba-8d12-16ce47bc74bc.png)
 
 #### 1（.0~5）对话框中按钮的数量和类型
