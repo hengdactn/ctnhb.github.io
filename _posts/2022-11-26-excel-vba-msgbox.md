@@ -70,15 +70,25 @@ helpfile和context不常用不做介绍。
 ### 常用的buttons的值
 
 Constant	      Value	Description
+
 vbOKOnly	        0	Display OK button only.
+
 vbOKCancel	        1	Display OK and Cancel buttons.
+
 vbAbortRetryIgnore	2	Display Abort, Retry, and Ignore buttons.
+
 vbYesNoCancel	    3	Display Yes, No, and Cancel buttons.
+
 vbYesNo	            4	Display Yes and No buttons.
+
 vbRetryCancel	    5	Display Retry and Cancel buttons.
+
 vbCritical	        16	Display Critical Message icon.
+
 vbQuestion	        32	Display Warning Query icon.
+
 vbExclamation	    48	Display Warning Message icon.
+
 vbInformation	    64	Display Information Message icon.
 
 ## 以上就是Msgbox的基本用法，欢迎联系[ctnhb@126.com](mailto:ctnhb@126.com)
