@@ -25,7 +25,9 @@ helpfile和context不常用不做介绍。
 ![image](https://user-images.githubusercontent.com/70909689/204091323-06e04082-ccf0-4393-b949-182cf0e51bbf.png)
 
 图片中的“Microsoft Excel”即命令中省略的“title”
+
 图片中的“Hello world！”为命令中的prompt
+
 图片中的“确定”按钮为命中中省略的buttons
 
 ![image](https://user-images.githubusercontent.com/70909689/204091558-7f612bb3-7806-46f2-a7aa-c4b6c9933474.png)
