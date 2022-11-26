@@ -15,10 +15,10 @@ title：对话框的名称，默认情况下为程序名，如“Microsoft Excel
 helpfile和context不常用不做介绍。
 
 ### 1.简单显示信息
-  Sub msgbox_test1()
+    Sub msgbox_test1()
 
-    MsgBox "Hello world!"
-  End Sub
+        MsgBox "Hello world!"
+    End Sub
 运行结果如下：
 ![image](https://user-images.githubusercontent.com/70909689/204091323-06e04082-ccf0-4393-b949-182cf0e51bbf.png)
 图片中的“Microsoft Excel”即命令中省略的“title”
