@@ -67,17 +67,32 @@ helpfile和context不常用不做介绍。
 
 ![image](https://user-images.githubusercontent.com/70909689/204093734-73ce256e-1580-45bc-990e-c563e9252c0d.png)
 
-### 5.返回值
+### 5.Msgbox的返回值
 
-![image](https://user-images.githubusercontent.com/70909689/204094840-3ac585f6-7979-4e7e-a420-78550a6cede5.png)
+![image](https://user-images.githubusercontent.com/70909689/204094942-8e3b4be8-c4ed-47e9-82ae-ded615c92bde.png)
 
 
 ### 常用的buttons的值
+buttons的取值表
+![image](https://user-images.githubusercontent.com/70909689/204095171-07786b87-1a04-4fba-8d12-16ce47bc74bc.png)
 
-![image](https://user-images.githubusercontent.com/70909689/204094858-10542915-2491-4115-81b4-b24e6a6521b2.png)
+1（.0~5）对话框中按钮的数量和类型
 
+![image](https://user-images.githubusercontent.com/70909689/204095285-6b012fae-08d2-400e-a28c-10372240683f.png)
 
-## 以上就是Msgbox的基本用法，欢迎联系[ctnhb@126.com](mailto:ctnhb@126.com)
+2.（16，32，48，64）决定对话框中显示的图标
+
+![image](https://user-images.githubusercontent.com/70909689/204095333-88a97438-56c7-486b-8909-7176b1faeadb.png)
+
+3.（0，256，512，768）绝对对话框中默认的活动按钮
+
+![image](https://user-images.githubusercontent.com/70909689/204095369-80d5dbf9-77e6-4dd5-a5ef-beefa15b2c19.png)
+
+4.（0，4096）决定消息框的强制响应性，不常用
+
+![image](https://user-images.githubusercontent.com/70909689/204095396-df431bba-f69c-42fb-8b44-7ac5a2a93639.png)
+
+## 以上就是Msgbox的基本用法，欢迎探讨联系[ctnhb@126.com](mailto:ctnhb@126.com)
 
 
     
