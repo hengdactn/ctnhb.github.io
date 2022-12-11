@@ -85,15 +85,15 @@ tag: VBA
 可以看到通过录制宏的办法实现起来简单，但是代码复杂。
 ### 简单添加边框的办法
 1.代码如下：
-    Sub setborders()
-    Dim rng As Range
-    Set rng = Range("D6:G7")
-    With rng
-        .BorderAround xlDouble
-        .Borders(xlInsideVertical).linestyle = xlContinuous
-        .Borders(xlInsideHorizontal).linestyle = xlContinuous
-    End With
-   End Sub
+        Sub setborders()
+            Dim rng As Range
+            Set rng = Range("D6:G7")
+            With rng
+                .BorderAround xlDouble
+                .Borders(xlInsideVertical).linestyle = xlContinuous
+                .Borders(xlInsideHorizontal).linestyle = xlContinuous
+            End With
+        End Sub
 2.运行结果如下：
 
 ![image](https://user-images.githubusercontent.com/70909689/206889233-5948be46-d395-45a0-9c14-69761a7d39d5.png)
