@@ -35,11 +35,11 @@ tag: VBA
 
 8.所录制的宏如下
     Sub 宏2()
-'
-' 宏2 宏
-'
+    '
+    ' 宏2 宏
+    '
 
-'
+    '
     Range("D6:G7").Select
     Range("G7").Activate
     Selection.Borders(xlDiagonalDown).linestyle = xlNone
@@ -80,7 +80,7 @@ tag: VBA
         .TintAndShade = 0
         .Weight = xlThin
     End With
-End Sub
+    End Sub
 
 可以看到通过录制宏的办法实现起来简单，但是代码复杂。
 ### 简单添加边框的办法
