@@ -8,6 +8,7 @@ tag: VBA
 
 在使用excelvba时，经常会遇到需要设置单元格或区域的颜色，今天我们讨论一下如何使用color index设置颜色。
 为了直观我们编一个小程序来显示颜色及数值，方便以后调用。
+
        Sub color_test()
           Dim i, j, index As Integer
           index = 1
