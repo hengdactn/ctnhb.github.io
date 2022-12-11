@@ -35,11 +35,7 @@ tag: VBA
 
 8.所录制的宏如下
     Sub 宏2()
-    '
-    ' 宏2 宏
-    '
-
-    '
+    
     Range("D6:G7").Select
     Range("G7").Activate
     Selection.Borders(xlDiagonalDown).linestyle = xlNone
@@ -84,7 +80,7 @@ tag: VBA
 
 可以看到通过录制宏的办法实现起来简单，但是代码复杂。
 ### 简单添加边框的办法
-1.代码如下：
+1.代码如下
         Sub setborders()
             Dim rng As Range
             Set rng = Range("D6:G7")
@@ -101,7 +97,7 @@ tag: VBA
 可见第二种方法就简单多了。
 
 ### 删除所选区域的边框。
-1.代码如下：
+1.代码如下
     Sub delborders()
       Dim rng As Range
       Set rng = Range("D6:G7")
