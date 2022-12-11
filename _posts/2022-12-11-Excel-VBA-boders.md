@@ -81,6 +81,7 @@ tag: VBA
 可以看到通过录制宏的办法实现起来简单，但是代码复杂。
 ### 简单添加边框的办法
 1.代码如下
+
         Sub setborders()
             Dim rng As Range
             Set rng = Range("D6:G7")
@@ -98,16 +99,18 @@ tag: VBA
 
 ### 删除所选区域的边框。
 1.代码如下
-    Sub delborders()
-      Dim rng As Range
-      Set rng = Range("D6:G7")
-      rng.Borders.linestyle = xlNone
-    End Sub
+
+        Sub delborders()
+            Dim rng As Range
+            Set rng = Range("D6:G7")
+            rng.Borders.linestyle = xlNone
+        End Sub
 2.运行结果如下：
 
 ![image](https://user-images.githubusercontent.com/70909689/206889450-d4c3bc18-ebfc-49d1-a502-8864e919394a.png)
 
 ### 我们可以通过一个程序来练习添加和删除边框
+
     Sub borders_test()
         setborders
         MsgBox "按确认按钮删除边框！"
