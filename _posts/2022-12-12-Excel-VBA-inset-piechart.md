@@ -6,7 +6,7 @@ description: "VBA在excel工作表中插入饼图"
 tag: VBA
 ---
 
-再使用VBA的过程中，我们会遇到在excel表格中插入图片的情况，今天我们以在工作表中插入饼图为例子，说明如何在工作表中插入饼图。
+在使用VBA的过程中，我们会遇到在excel表格中插入图片的情况，今天我们以在工作表中插入饼图为例子，说明如何在工作表中插入饼图。
 ### 准备表格
 
 ![image](https://user-images.githubusercontent.com/70909689/207043034-62f5276a-718c-4f0e-bec6-eeefddcb8a5f.png)
