@@ -21,12 +21,14 @@ tag: VBA
 ### 1.RANDBETWEEN（）函数
 语法：
     RANDBETWEEN（bottom,top）
+    
 含义：
   返回位于两个指定数之间的一个随机整数。 每次计算工作表时都将返回一个新的随机整数。
 注：在VBA中使用函数前面需要加上Application.
 ### 2.CHOOSE()函数
 语法：
     Choose(index_num, value1, [value2], ...)
+    
 语法参数：
 #### 1、index_num：必需，用于指定所选定的数值参数。index_num 必须是介于 1 到 254 之间的数字，或是包含 1 到 254 之间的数字的公式或单元格引用。
 如果 index_num 为 1，则 CHOOSE 返回 value1；如果为 2，则 CHOOSE 返回 value2，以此类推。
