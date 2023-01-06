@@ -17,6 +17,10 @@ tag: VBA
       rearnum = Application.RandBetween(10000000, 99999999)
       Sheets("随机号码").Cells(1, 3) = prenum & rearnum
     End Sub
+运行结果如下：
+ 
+![image](https://user-images.githubusercontent.com/70909689/211005188-0706e599-e74a-494a-890f-bbc73edb8c8a.png)
+
 这里主要是用到了随机函数函randbetween（）和choose函数。
 ### 1.RANDBETWEEN（）函数
 语法：
