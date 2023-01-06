@@ -16,7 +16,7 @@ tag: VBA
           "180", "186", "187", "189")
       rearnum = Application.RandBetween(10000000, 99999999)
       Sheets("随机号码").Cells(1, 3) = prenum & rearnum
-  End Sub
+    End Sub
 这里主要是用到了随机函数函randbetween（）和choose函数。
 ### 1.RANDBETWEEN（）函数
 语法：
