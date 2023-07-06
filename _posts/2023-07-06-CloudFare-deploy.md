@@ -21,7 +21,8 @@ tag: 上网
 ### 7.删除所有代码
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/826dd439-352a-4fe6-867a-1031dff1b3b5)
 ### 8。复制下方链接中的代码,粘贴到代码框当中，然后点击“保存并部署”
-代码链接：https://github.com/hengdactn/ctnhb.github.io/blob/master/workers%E4%BB%A3%E7%A0%81.txt
+代码链接：[https://github.com/hengdactn/ctnhb.github.io/blob/master/workers%E4%BB%A3%E7%A0%81.txt](https://raw.githubusercontent.com/hengdactn/ctnhb.github.io/master/workers%E4%BB%A3%E7%A0%81.txt)
+
 或：https://raw.githubusercontent.com/leilei223/works/main/index.js
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/d9efcfbf-8a7a-4a92-8581-90e072ddca2c)
 ### 10.复制此地址
