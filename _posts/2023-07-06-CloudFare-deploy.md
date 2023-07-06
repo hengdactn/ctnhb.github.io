@@ -32,8 +32,8 @@ tag: 上网
 ### 12.选择订阅菜单，选择订阅设置，添加刚才复制的地址，然后再地址后加上sub/和ip地址
 ip地址可以用ip优选工具选出或用一下网站选出
 网址：https://vfarid.github.io/cf-ip-scanner/?max=30#
-![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/5f9ea162-806c-4c4e-b6bf-e144b35ccafd)
 
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/5f9ea162-806c-4c4e-b6bf-e144b35ccafd)
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/b0a1085c-cde9-40be-8c82-20e35ef8698e)
 ### 13.更新订阅，如不行就多更新几次。
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/30eb971c-960c-4fdd-86f7-737cd51ea934)
