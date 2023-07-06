@@ -27,12 +27,11 @@ tag: 上网
 ### 10.复制此地址
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/0772aeab-5184-43bd-b8a1-659e656587ef)
 ### 11.打开V2ray，选择“设置”添加新的分组，我们命名为test。
-![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/2f7b5aac-f10a-483e-b2a9-307a40c5eb7a)
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/b204887d-628e-48d1-9bd1-2b3c09eca3a5)
 ### 12.选择订阅菜单，选择订阅设置，添加刚才复制的地址，然后再地址后加上sub/和ip地址
-ip地址可以用ip优选工具选出或用一下网站选出
-网址：https://vfarid.github.io/cf-ip-scanner/?max=30#
+ip地址可以用ip优选工具选出或用一下网站选出，
 
+网址：https://vfarid.github.io/cf-ip-scanner/?max=30#
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/5f9ea162-806c-4c4e-b6bf-e144b35ccafd)
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/b0a1085c-cde9-40be-8c82-20e35ef8698e)
 ### 13.更新订阅，如不行就多更新几次。
