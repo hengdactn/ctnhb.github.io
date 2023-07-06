@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Cloudflare内搭建机场节点"
-date: 2023-07-05
-description: "正确设置Cloud Flare Warp设置，实现上网"
+date: 2023-07-06
+description: "部署CloudFlare workers实现把CloudFlare变为机场功能"
 tag: 上网
 ---
 ### 简介
