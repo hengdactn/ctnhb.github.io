@@ -65,7 +65,8 @@ https://github.com/lstprjct/IDM-Activation-Script
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/65d0da79-9ae7-4e1a-97a2-53a01fc8c17e)
 
 8.我们打开IDM查看一下激活成功，让我们开始使用IDM吧。
-![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/6af85ea2-ca1e-4b7d-b07f-8ebfb701cfd2)
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/72bbc37c-139f-45bd-aed6-7f2e3d739c9c)
+
 
 
 
