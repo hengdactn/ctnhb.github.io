@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IDM注册教程"
-date: 2023-07-05
+date: 2023-08-13
 description: "如何注册IDM"
 tag: 上网
 ---
