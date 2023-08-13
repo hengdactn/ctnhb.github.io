@@ -3,7 +3,7 @@ layout: post
 title: "IDM注册教程"
 date: 2023-08-13
 description: "如何注册IDM"
-tag: 上网
+tag: 软件
 ---
 
 IDM是我们常用的下载工具，但是我们新安装IDM后它是没有注册的，下面我们介绍一下IDM如何注册。
