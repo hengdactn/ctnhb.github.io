@@ -5,11 +5,13 @@ date: 2023-11-19
 description: "CCXT设置代理访问Okx"
 tag: python_okx
 --- 
+
 我们使用python通过ccxt访问okx时，可能会有无法访问的情况，那么我们可以通过设置代理的方法实现对okx的访问。
 
 代码如下:
 
   import ccxt
+  
   ### API初始化
   apikey = '你的apikey'
   
