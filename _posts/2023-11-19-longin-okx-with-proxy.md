@@ -9,11 +9,11 @@ tag: python_okx
 
 代码如下:
   import ccxt
-  # API初始化
+  ### API初始化
   apikey = '你的apikey'
   secretkey = '你的secretkey'
   passphrase = '你的password'
-  # 实例化交易所并设置代理
+  ### 实例化交易所并设置代理
   okx = ccxt.okx({
       'proxies': {
           'http': 'http://127.0.0.1:XXXX',
@@ -21,10 +21,11 @@ tag: python_okx
       }
   })
   
-  # 设置apikey
+  ### 设置apikey
   okx.apiKey = apikey
   okx.secret = secretkey
   okx.password = passphrase
+  
 通过以上设置就可以正常访问okx了。  
 
   
