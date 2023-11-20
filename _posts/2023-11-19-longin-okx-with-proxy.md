@@ -32,6 +32,16 @@ tag: python_okx
     okx.apiKey = apikey  
     okx.secret = secretkey  
     okx.password = passphrase
+
+    # 最后把代码优化一下
+    # 实例化交易所并设置代理和api
+    okx = ccxt.okx({
+        'proxies': {'http': 'http://127.0.0.1:XXXX','https': 'http://127.0.0.1:XXXX'},
+        'apiKey':apikey,
+        'secret':secretkey,
+        'password':passphrase,
+    })
+    
   
 通过以上设置就可以正常访问okx了。  
 
