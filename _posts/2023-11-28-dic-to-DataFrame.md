@@ -29,8 +29,8 @@ tag: python
 	df=pd.DataFrame([di])
 	print(df)
 输出:  
-		  instType         instId   last lastSz  askPx askSz  bidPx bidSz open24h high24h low24h volCcy24h    vol24h             ts sodUtc0 sodUtc8
-	0     SWAP  TRB-USDT-SWAP  78.87    123  78.88   169  78.87   269   78.22   78.98  73.66   1235488  12354880  1701172405707   77.89   77.04
+		  instType         instId   last lastSz  askPx askSz  bidPx bidSz open24h high24h low24h volCcy24h    vol24h             ts sodUtc0 sodUtc8  
+	        0     SWAP  TRB-USDT-SWAP  78.87    123  78.88   169  78.87   269   78.22   78.98  73.66   1235488  12354880  1701172405707   77.89   77.04
 
 ### dic的键转换为行，并添加标题行
 
