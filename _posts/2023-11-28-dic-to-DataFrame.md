@@ -26,7 +26,7 @@ tag: python
 		 'ts': '1701172405707',
 		 'vol24h': '12354880',
 		 'volCcy24h': '1235488'}
-	df=pd.DataFrame([di])
+	df=pd.DataFrame([dic])
 	print(df)
 输出:  
 
