@@ -27,7 +27,7 @@ tag: python
 		 'vol24h': '12354880',
 		 'volCcy24h': '1235488'}
 	df=pd.DataFrame([dic])
-	print(df)
+	print(df)  
 输出:  
 
   instType         instId   last lastSz  askPx askSz  bidPx bidSz open24h high24h low24h volCcy24h    vol24h             ts sodUtc0 sodUtc8    
@@ -56,7 +56,7 @@ tag: python
 			 'vol24h': '12354880',
 			 'volCcy24h': '1235488'}
 		df=pd.DataFrame(list(dic.items()),columns=['项目','数值']
-		print(df)
+		print(df)  
 输出：  
 
 		           项目             数值
