@@ -17,7 +17,8 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple ccxt
 3.引用ccxt  
 import ccxt  
 ### 程序思路
-通过ccxt的fetch ohlc函数来获取K线数据具体程序如下：
+通过ccxt的fetch ohlc函数来获取K线数据具体程序如下：  
+
 		import ccxt
 		import pandas as pd
 		from datetime import timedelta
@@ -30,9 +31,9 @@ import ccxt
 		df=pd.DataFrame(data,columns=header,dtype=float)
 		df['open_ts']=pd.to_datetime(df['open_ts'],unit='ms')
 		df['open_ts']=df['open_ts']+timedelta(hours=8)
-		print(df)  
+		print(df)    
 
-注：params参数是为了让K线数据不收到300的限制。  
+注：params参数是为了让K线数据不收到300的限制。    
 
 运行结果如下：  
 		           open_ts   open   high    low  close       vol  
