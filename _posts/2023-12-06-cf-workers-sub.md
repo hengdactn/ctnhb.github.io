@@ -20,8 +20,8 @@ Cloudflare网站地址：[https://www.cloudflare.com/zh-cn/](https://www.cloudfl
 4.在"Name"标签下输入订阅的名称; 
 5.选择“Editcode”
 6.清楚代码内容，并粘贴以上提供的代码。并选择“Save and deploy”，复制生成链接；
-7.添加域名。    
-部署完毕。
+7.添加域名。        
+部署完毕。  
 ### 使用方法
 把添加的域名加“/sub”添加到上网软件的订阅链接里，更新订阅就可以使用了。  
   
