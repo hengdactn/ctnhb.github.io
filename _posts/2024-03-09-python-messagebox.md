@@ -189,6 +189,8 @@ print('result=',result)
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/841ac8f5-d16f-49f4-a333-f44ddc0219bc)
 
 
+以上是消息框的具体用法。
+
 
 
 
