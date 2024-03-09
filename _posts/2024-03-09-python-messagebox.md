@@ -77,6 +77,31 @@ print('result=',result)
 
 当我们点击确定，则result= ok。 
 
+### 4.疑问消息框  
+提出一个问题。 在默认情况下显示 YES 和 NO 按钮。 返回所选择按钮的符号名称。  
+```
+import tkinter as tk
+from tkinter.messagebox import *
+
+title='是（y）|否（n）？'
+message='这是一个疑问信息框，请选择是或否。'
+
+win=tk.Tk()
+win.withdraw()
+
+result=askquestion(title,message)
+print('result=',result)
+```
+运行以上代码会显示：  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/33adb588-cd20-4e03-9b9e-df46b623b4b9)
+
+
+当我们点击"是"，则result= yes；当我们点击“否”，则result=no。
+
+
+
+
 
 
 
