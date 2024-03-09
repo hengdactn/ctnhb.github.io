@@ -13,3 +13,13 @@ tag: python
 ```
 ### 1.信息消息框  
 创建并显示一个具有指定标题和消息的信息消息框。  
+```
+title='提示'
+message='这是一个信息框'
+
+win=tk.Tk()
+win.withdraw()
+
+result=showinfo(title,message)
+print('result=',result)
+```
