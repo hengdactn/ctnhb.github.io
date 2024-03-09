@@ -51,7 +51,31 @@ print('result=',result)
 
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/77d143ae-861f-4153-9345-817927278771)  
 
-当我们点击确定，则result= ok。
+当我们点击确定，则result= ok。  
+
+### 3.错误信息框  
+创建和显示一个具有指定标题和消息的错误消息框。  
+
+```
+import tkinter as tk
+from tkinter.messagebox import *
+
+title='错误'
+message='这是一个错误信息框'
+
+win=tk.Tk()
+win.withdraw()
+
+result=showerror(title,message)
+print('result=',result)
+```
+
+运行以上代码会显示：  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/026aab30-3bca-4573-8c1c-e6b950d3ea64)  
+
+
+当我们点击确定，则result= ok。 
 
 
 
