@@ -99,6 +99,102 @@ print('result=',result)
 
 当我们点击"是"，则result= yes；当我们点击“否”，则result=no。
 
+### 5.yes/no信息框  
+
+提出一个问题。 显示 YES 和 NO 按钮。 如果选择是则返回 True 否则返回 False。  
+```
+import tkinter as tk
+from tkinter.messagebox import *
+
+title='yes|no？'
+message='这是一个yes/no信息框，请选择yes或no。'
+
+win=tk.Tk()
+win.withdraw()
+
+result=askyesno(title,message)
+print('result=',result)
+```
+
+运行以上代码会显示：  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/a82acc67-8db9-4b2a-a79d-6c734fff8b00)
+
+当我们点击"是"，则result= True当我们点击“否”，则result=False。  
+
+### 6.确认取消消息框  
+
+询问操作是否要继续。 显示 OK 和 CANCEL 按钮。 如果选择确定将返回 True 否则返回 False。  
+
+
+```
+import tkinter as tk
+from tkinter.messagebox import *
+
+title='ok|cancel？'
+message='这是一个ok/cancel信息框，请选择ok或cancel。'
+
+win=tk.Tk()
+win.withdraw()
+
+result=askokcancel(title,message)
+print('result=',result)
+```
+
+运行以上代码会显示：  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/ea2899bb-0709-427c-876a-1a8218e7648f)  
+
+### 7.重试消息框  
+
+询问操作是否要重试。 显示 RETRY 和 CANCEL。 如果选择重试将返回 True 否则返回 False。  
+```
+import tkinter as tk
+from tkinter.messagebox import *
+
+title='retry|cancel？'
+message='这是一个retry/cancel信息框，请选择retry或cancel。'
+
+win=tk.Tk()
+win.withdraw()
+
+result=askretrycancel(title,message)
+print('result=',result)
+```
+
+运行以上代码会显示： 
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/4922bb35-d479-41c1-82a5-a3f5947f7a08)  
+
+### 8.yes/no/cancel信息框  
+
+提出一个问题。 显示 YES, NO 和 CANCEL 按钮。 如果选择是则返回 True，取消则返回 None，否则返回 False。  
+
+```
+import tkinter as tk
+from tkinter.messagebox import *
+
+title='yes/no/cancel？'
+message='这是一个yes/no/cancel信息框，请选择yes 、no或cancel。'
+
+win=tk.Tk()
+win.withdraw()
+
+result=askyesnocancel(title,message)
+print('result=',result)
+```
+
+运行以上代码会显示：  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/841ac8f5-d16f-49f4-a333-f44ddc0219bc)
+
+
+
+
+
+
+
+
 
 
 
