@@ -168,7 +168,7 @@ print('result=',result)
 
 ### 8.yes/no/cancel信息框  
 
-提出一个问题。 显示 YES, NO 和 CANCEL 按钮。 如果选择是则返回 True，取消则返回 None，否则返回 False。  
+提出一个问题。 显示 YES, NO 和 CANCEL 按钮。 如果选择是则返回 True，取消则返回 False，否则返回 None。  
 
 ```
 import tkinter as tk
