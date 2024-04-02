@@ -90,19 +90,20 @@ parse_proxies(str)
 通过运行以上代码我们将得到一下节点：
 
 ```
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:443?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:443
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2053?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2053
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2083?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2083
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2087?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2087
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2096?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2096
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:8443?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:8443
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:80?security=none&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:80
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:8080?security=none&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:8080
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:8880?security=none&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:8880
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2052?security=none&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2052
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2082?security=none&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2082
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2086?security=none&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2086
-vless://bfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2095?security=none&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2095
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:443?security=tls&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:443
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2053?security=tls&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2053
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2083?security=tls&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2083
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2087?security=tls&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2087
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2096?security=tls&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2096
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:8443?security=tls&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:8443
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:80?security=none&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:80
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:8080?security=none&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:8080
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:8880?security=none&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:8880
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2052?security=none&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2052
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2082?security=none&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2082
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2086?security=none&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2086
+vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:2095?security=none&sni=lg1.freessr2.xyz&fp=random&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none#fbi.gov:2095
+
 
 ```
 
