@@ -9,7 +9,8 @@ tag: python
 
 ### 解析vless节点  
 
-要想达到让程序帮我们处理节点的目的，首先我们要对vless节点进行分析，然后再看能否使用python进行编程，我随便拿出一个节点来举个例子；
+要想达到让程序帮我们处理节点的目的，首先我们要对vless节点进行分析，然后再看能否使用python进行编程，我随便拿出一个节点来举个例子；  
+
 vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:443?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none＃123  
 
 vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:80?security=&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none＃123  
