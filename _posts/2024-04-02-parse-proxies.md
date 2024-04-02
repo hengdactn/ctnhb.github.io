@@ -11,18 +11,29 @@ tag: python
 
 要想达到让程序帮我们处理节点的目的，首先我们要对vless节点进行分析，然后再看能否使用python进行编程，我随便拿出一个节点来举个例子；
 vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:443?security=tls&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none＃123  
+
 vless://ebfdccb6-7416-4b6e-860d-98587344d500@fbi.gov:80?security=&sni=lg1.freessr2.xyz&fp=chrome&type=ws&path=/xyakws&host=lg1.freessr2.xyz&encryption=none＃123  
 
 １．“vless://”这代表vless节点的开头；  　　
-２．“ebfdccb6-7416-4b6e-860d-98587344d500”是节点的“UUID”；  　　
+
+２．“ebfdccb6-7416-4b6e-860d-98587344d500”是节点的“UUID”；  　
+
 ３.“＠”是分隔符；　  　
+
 ４．“fbi.gov”是IP地址或是优选域名；　  　
+
 ５．“：”是IP和端口的分隔符；  　　
+
 ６．“４４３”是端口号；  　　
-７.“？”是分割符；  　　
+
+７.“？”是分割符；  　
+
 ８.“security=tls”是传输层安全，表示是否打开ｔｌｓ；　  　
+
 ９．后面直到“＃”是伪装域名，传输协议，路径，加密等；  
+
 １０.“＃”是分隔符；  
+
 １１.“１２３”是名称。  
 
 ### 编程思路  
