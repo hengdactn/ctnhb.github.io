@@ -17,7 +17,7 @@ wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [opt
 安装“XUI”用到的命令：  
 
 ```
-
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
 
 #### 3.电脑上要安装warp  
