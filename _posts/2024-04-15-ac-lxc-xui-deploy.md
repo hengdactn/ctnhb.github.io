@@ -38,6 +38,31 @@ wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [opt
 记录好自己的用户名，和IP地址（IPV6）。  
 
 
-### 
+### 四、点击网页的右上方的“网页版ssh”  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/a467d6e6-f3f3-4254-95a6-f349d4716e32)  
+
+### 五、进入网页版SSH  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/1cb5bbe1-d453-4ee8-a285-958798fd06f6)  
+
+填写你的IP，端口22不用改，然后填写你的用户名和密码。点击“connect”。  如不能正常登录则运行warp后再次进行登录。
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/3d5a7155-5551-42c9-8d75-67a874c458ef)
+
+
+### 登录SSH安装warp    
+
+复制我们前面提到的warp命令回车
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/2bde17cc-b884-420d-b0eb-7faa5dbead0c)
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/34d204c8-54eb-404a-8c97-a2db4cc3f2f8)
+
+
+
+
+
+
 
 
