@@ -6,6 +6,21 @@ description: "AC云IPV6 VPS部署"
 tag: 上网
 --- 
 上一篇我们购买了AC云的VPS，下面我们继续在VPS上安装warp，安装XUI来部署节点。  
+### 准备工作
+#### 安装“warp”用到的命令
+warp 安装命令：
+```
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [option] [lisence/url/token]
+
+```
+#### 安装“XUI”用到的命令  
+
+```
+
+
+```
+#### 电脑上要安装warp
+如果你的网络不支持IPV6，需要在电脑上安装warp，安装方法不再细述。  
 
 ### 登录“anyfastcloud”网站并进入到“My Dashboard”  
 
@@ -19,17 +34,7 @@ tag: 上网
 
 记录好自己的用户名，和IP地址（IPV6）。  
 
-### 安装“warp”用到的命令
-warp 安装命令：
-```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [option] [lisence/url/token]
 
-```
-### 安装“XUI”用到的命令  
-
-```
-
-
-```
+### 
 
 
