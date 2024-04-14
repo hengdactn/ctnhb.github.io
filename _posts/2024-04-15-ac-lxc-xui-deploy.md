@@ -57,7 +57,40 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 
 ![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/2bde17cc-b884-420d-b0eb-7faa5dbead0c)
 
-![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/34d204c8-54eb-404a-8c97-a2db4cc3f2f8)
+### 安装XUI
+复制前面提到的XUI命令然后回车  
+
+安装过程中注意修改端口，设置xui的登录信息，用户名和密码。
+
+### 登录XUI
+
+在地址栏输入IPV6地址+端口进入XUI登录页面。输入用户名和密码登录。
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/48cbd779-5ce9-4a43-b692-3f5507ab4831)
+
+### 添加入站    
+
+点击入站列表，选择添加入站  
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/ae31e5b3-7e97-4910-b703-56ae3086133b)  
+
+填写入站信息，端口可以改成80，传输选择ws，path自己定，其它不用改了，然后点添加。
+
+![image](https://github.com/hengdactn/ctnhb.github.io/assets/70909689/1c70ff72-f24f-4772-b21b-75dc0b0066dd)  
+
+点击二维码，等二维码出现后，点击复制。
+
+### 添加节点开始上网
+
+打开我们的上网软件，粘贴我们复制的节点，设置为活动状态，就可以开始上网了。
+
+
+
+
+
+
+ 
+
 
 
 
