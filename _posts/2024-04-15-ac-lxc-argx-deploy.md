@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AC云IPV6 VPS部署（三）隧道部署"
+title: "AC云IPV6 VPS部署（三）argox部署"
 date: 2024-04-15
 description: "AC云IPV6 VPS部署"
 tag: 上网
