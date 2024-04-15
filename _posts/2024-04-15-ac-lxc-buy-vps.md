@@ -4,7 +4,7 @@ title: "AC云IPV6 VPS部署（一）购买VPS"
 date: 2024-04-15
 description: "AC云IPV6 VPS部署"
 tag: 上网
---- 
+---  
 
 前段时间在购买了anyfastcloud的VPS，也部署成功了，后来因为要更换隧道，又找了很多资料才更改成功。下面把部署VPS的步骤再梳理一下，方便查询。  
 
