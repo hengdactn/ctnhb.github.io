@@ -89,7 +89,7 @@ True or False  值为True
 x=a or b 
 print(x)  # x=a
 ```
-### 三元运算符的嵌套
+### 三元运算符的写法六（嵌套）
 
 ```
 x= a if a>b else c if c>d else d
