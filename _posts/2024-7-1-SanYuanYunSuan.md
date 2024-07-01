@@ -89,6 +89,16 @@ True or False  值为True
 x=a or b 
 print(x)  # x=a
 ```
+### 三元运算符的嵌套
+
+```
+x= a if a>b else c if c>d else d
+```
+应理解为：
+
+```
+x=a if a>b else (c if c>d esle d)
+```
 
 以上就是三元运算符的写法，如有问题欢迎联系我。
 
