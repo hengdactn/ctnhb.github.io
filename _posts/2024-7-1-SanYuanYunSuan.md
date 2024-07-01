@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "三元运算符让python代码更简洁"
-date: 2024-03-09
+date: 2024-07-01
 description: "三元运算符"
 tag: python
 ---  
