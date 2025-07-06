@@ -9,7 +9,7 @@ tag: python
 那这个参数设定完是什么结果呢？我编写了一段例程，来显示加载各relief的参数的效果。
 
 ### 例程：
-    ···
+    
     import tkinter as tk
 
     N=0
@@ -47,7 +47,7 @@ tag: python
     
     win.mainloop()
 
-    ···    
+    
 
 ### 运行结果：  
 1.flat 
