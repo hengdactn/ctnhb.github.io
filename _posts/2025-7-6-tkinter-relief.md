@@ -51,22 +51,28 @@ tag: python
 
 ### 运行结果：  
 1.flat 
+
 ![image](https://github.com/user-attachments/assets/6a39f780-43b1-4d3a-ab29-0f4e337cf61b)
 
 
 2.sunken
+
 ![image](https://github.com/user-attachments/assets/1b3c2f3b-ae72-4515-9fd1-49657e54141f)
 
 3.raised
+
 ![image](https://github.com/user-attachments/assets/e7f90b76-a821-4ecf-8deb-d6797c6cbb02)
 
 4.groove
+
 ![image](https://github.com/user-attachments/assets/c76f78c6-de80-47ab-9621-49f6f10e4774)
 
 5.ridge
+
 ![image](https://github.com/user-attachments/assets/6c748508-3d3d-449f-a3ad-b800e75ea60f)
 
 6.solid
+
 ![image](https://github.com/user-attachments/assets/7394900a-bb3c-44e8-b7f4-a7bbb386405d)
 
 以上是relief参数的设置和效果情况，编程时可参考。
