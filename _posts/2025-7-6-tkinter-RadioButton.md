@@ -61,6 +61,8 @@ value参数指定了当用户选择此按钮时，variable应该被设置为的�
     root.mainloop()
 ### 运行结果
 
-![img.png](img.png)
+![image](https://github.com/user-attachments/assets/f3c47eef-92d3-4292-ad67-400156f3a3b4)
 
-![img_1.png](img_1.png)
+
+![image](https://github.com/user-attachments/assets/05875340-df17-4114-a104-456fc0fd2ae5)
+
