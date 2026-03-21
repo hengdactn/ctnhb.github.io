@@ -14,6 +14,7 @@ tag: python
 打开这个链接：https://www.okx.com/zh-hans/account/my-api
 
 如下图：
+<img width="1704" height="843" alt="Ashampoo_Snap_2026 03 21_18h34m59s_012_Chrome Legacy Window" src="https://github.com/user-attachments/assets/5cfb1c75-315f-4dd0-a0d2-bc2315603ee5" />
 
 
 
