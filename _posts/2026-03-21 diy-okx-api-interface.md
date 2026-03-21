@@ -118,7 +118,7 @@ OKX_PASSPHRASE=                         # 你的Passphrase
         
         return base64.b64encode(mac.digest()).decode()
 
-#### 构造header函数
+#### 构造headers函数
 
     def get_headers(method, path, body=""):
     
@@ -132,6 +132,57 @@ OKX_PASSPHRASE=                         # 你的Passphrase
             "OK-ACCESS-PASSPHRASE": PASSPHRASE,
             "Content-Type": "application/json"
         }
+
+#### 构造request函数
+    session = requests.Session()
+    session.proxies=proxies
+    def request(method, path, params=None):
+    
+        url = BASE_URL + path
+        method=method.upper()
+        # 构建完整URL
+        if method == "GET" and params:
+            query_string = urlencode(params)
+            full_path = f"{path}?{query_string}"
+            url = f"{BASE_URL}{full_path}"
+            body_str = ""
+        else:
+            full_path = path
+            url = f"{BASE_URL}{path}"
+            body_str = json.dumps(params) if params else ""
+    
+        headers = get_headers(method, full_path, body_str)
+        # 确保Content-Type正确
+        headers["Content-Type"] = "application/json"
+        # print('url=',url)
+        # print('body_str=',body_str)
+        try:
+            if method == "GET":
+                r = session.get(url,headers=headers,timeout=10)
+            else:
+                # body = json.dumps(params) if params else ""
+                r = session.post(url,headers=headers,data=body_str,timeout=10)
+    
+            # 检查HTTP状态码
+            r.raise_for_status()
+            # 解析响应
+            result = r.json()
+            # 检查API返回码
+            if result.get('code') != '0':
+                print(f"API错误: {result.get('msg', '未知错误')}")
+            return result
+    
+        except requests.exceptions.RequestException as e:
+            print(f"请求异常: {e}")
+            return {"code": "-1", "msg": str(e)}
+        except json.JSONDecodeError as e:
+            print(f"JSON解析错误: {e}")
+            return {"code": "-1", "msg": "响应解析失败"}
+        except Exception as e:
+            print(f"未知错误: {e}")
+            return {"code": "-1", "msg": str(e)}
+    
+        return r.json()
 
 
 
