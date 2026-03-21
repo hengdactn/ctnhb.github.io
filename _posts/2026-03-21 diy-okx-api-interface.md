@@ -104,7 +104,9 @@ OKX_PASSPHRASE=                         # 你的Passphrase
 
 
 #### 构造签名函数
-
+    import hmac
+    import base64
+    
     def sign(timestamp, method, path, body=""):  
     
         message = timestamp + method + path + body  
