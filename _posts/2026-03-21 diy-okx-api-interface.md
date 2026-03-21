@@ -19,11 +19,11 @@ tag: python
 
 创建APIKey后，您将获得3个必须记住的信息：
 
-*APIKey
+* APIKey
 
-*SecretKey
+* SecretKey
 
-*Passphrase
+* Passphrase
 
 APIKey和SecretKey将由平台随机生成和提供，Passphrase将由您提供以确保API访问的安全性。平台将存储Passphrase加密后的哈希值进行验证，但如果您忘记Passphrase，则无法恢复，请您通过交易网站重新生成新的APIKey。
 
