@@ -134,6 +134,8 @@ OKX_PASSPHRASE=                         # 你的Passphrase
         }
 
 #### 构造request函数
+    import josn
+    
     session = requests.Session()
     session.proxies=proxies
     def request(method, path, params=None):
