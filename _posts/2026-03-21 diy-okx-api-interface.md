@@ -193,6 +193,7 @@ OKX_PASSPHRASE=                         # 你的Passphrase
     BASE_URL='https://www.okx.com'
     path=path = "/api/v5/account/balance"
     method='GET'
+    
     def get_balance(ccy):
     
         """
@@ -211,5 +212,5 @@ OKX_PASSPHRASE=                         # 你的Passphrase
         
 
 
-
+这样，我们自己构造的api接口函数就完成了，使用也很简单。我们可以根据自己的需要随意构建自己需要的函数。
  
