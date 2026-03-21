@@ -47,8 +47,43 @@ APIKey 有如下3种权限，一个 APIKey 可以有一个或多个权限。
 * 调用了不需要 APIKey 鉴权的接口，即使传入了 APIKey的信息，也不会被视为使用过。
   
 * Websocket 只有在登陆的时候，才会被视为 APIKey 被使用过。在登陆后的连接中做任何操作（如 订阅/下单），也不会被认为 APIKey 被使用，这点需要注意。
-* 
+  
 用户可以在 安全中心 中看到未绑定IP且拥有交易/提现权限的 APIKey 最近使用记录。
+
+### REST 请求验证
+
+#### 发起请求
+
+所有REST私有请求头都必须包含以下内容：
+
+* OK-ACCESS-KEY字符串类型的APIKey。
+
+* OK-ACCESS-SIGN使用HMAC SHA256哈希函数获得哈希值，再使用Base-64编码（请参阅签名）。
+
+* OK-ACCESS-TIMESTAMP发起请求的时间（UTC），如：2020-12-08T09:08:57.715Z
+
+* OK-ACCESS-PASSPHRASE您在创建API密钥时指定的Passphrase。
+
+所有请求都应该含有application/json类型内容，并且是有效的JSON。
+
+#### 签名
+
+OK-ACCESS-SIGN的请求头是对timestamp + method + requestPath + body字符串（+表示字符串连接），以及SecretKey，使用HMAC SHA256方法加密，通过Base-64编码输出而得到的。
+
+如：sign=CryptoJS.enc.Base64.stringify(CryptoJS.HmacSHA256(timestamp + 'GET' + '/api/v5/account/balance?ccy=BTC', SecretKey))
+
+其中，timestamp的值与OK-ACCESS-TIMESTAMP请求头相同，为ISO格式，如2020-12-08T09:08:57.715Z。
+
+method是请求方法，字母全部大写：GET/POST。
+
+requestPath是请求接口路径。如：/api/v5/account/balance
+
+body是指请求主体的字符串，如果请求没有主体（通常为GET请求）则body可省略。如：{"instId":"BTC-USDT","lever":"5","mgnMode":"isolated"}
+
+ GET请求参数是算作requestPath，不算body
+SecretKey为用户申请APIKey时所生成。如：22582BD0CFF14C41EDBF1AB98506286D
+
+
 
 ### ANSI 颜色代码主要包括以下几类: 
 #### 文本颜色:  
