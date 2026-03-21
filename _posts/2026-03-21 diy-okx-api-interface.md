@@ -118,6 +118,21 @@ OKX_PASSPHRASE=                         # 你的Passphrase
         
         return base64.b64encode(mac.digest()).decode()
 
+#### 构造header函数
+
+    def get_headers(method, path, body=""):
+    
+        timestamp = get_timestamp()
+        method=method.upper()
+    
+        return {
+            "OK-ACCESS-KEY": API_KEY,
+            "OK-ACCESS-SIGN": sign(timestamp, method, path, body),
+            "OK-ACCESS-TIMESTAMP": timestamp,
+            "OK-ACCESS-PASSPHRASE": PASSPHRASE,
+            "Content-Type": "application/json"
+        }
+
 
 
 
