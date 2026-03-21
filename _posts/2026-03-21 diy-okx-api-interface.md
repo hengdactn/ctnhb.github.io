@@ -95,23 +95,19 @@ OKX_PASSPHRASE=                         # 你的Passphrase
 
 我们可以定义一个函数来获取时间戳：
 
-  import time
-  
+  import time  
   def get_timestamp():
       return time.strftime('%Y-%m-%dT%H:%M:%S.000Z', time.gmtime())
 
 #### 构造签名函数
 
-  def sign(timestamp, method, path, body=""):
-  
-      message = timestamp + method + path + body
-  
+  def sign(timestamp, method, path, body=""):  
+      message = timestamp + method + path + body  
       mac = hmac.new(
           SECRET_KEY.encode(),
           message.encode(),
           hashlib.sha256
-      )
-  
+      )  
       return base64.b64encode(mac.digest()).decode()
 
 
