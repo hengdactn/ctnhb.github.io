@@ -12,7 +12,7 @@ railway address：https://railway.com/account
 
 项目地址：https://github.com/eooce/nodejs-argo
 
-js混淆工具：(https://go.sssc.nyc.mn/js-obfuscator)
+js混淆工具：https://go.sssc.nyc.mn/js-obfuscator
 
 #### 一、注册railway账户
 
