@@ -16,7 +16,11 @@ js混淆工具：https://go.sssc.nyc.mn/js-obfuscator
 
 #### 一、注册railway账户
 
+不再祥述
+
 #### 二、构建镜像文件
+
+不再详述
 
 ### 三、新建railway项目
 
